@@ -1,5 +1,42 @@
 .home {
-  padding: 56px 20px;
+  /* Header padding */
+  /* padding: 56px 20px; */
+  padding: 5px 20px;
+  margin: auto;
   min-height: 100%;
-  width: 100%;
+  max-width: 1200px;
+}
+
+.signContainer {
+  cursor: pointer;
+}
+
+.optionContainer {
+  display: flex;
+}
+.optionContainer > div {
+  flex: 1;
+}
+
+.form label {
+  margin-right: 5px;
+}
+.form label button,
+.form label input,
+.form label select {
+  margin: 0 5px;
+}
+
+.form > div {
+  margin: 20px 0;
+}
+
+.mapContainer {
+  text-align: left;
+  height: 610px;
+  overflow: hidden;
+}
+
+.mapContainer path[data-station='true'] {
+  cursor: pointer;
 }

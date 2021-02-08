@@ -1,0 +1,227 @@
+.sign {
+  user-select: none;
+  position: relative;
+  transform-origin: top left;
+  height: 490px;
+  width: 1830px;
+  background-color: white;
+  color: #1a1a1a;
+}
+
+.numberingContainerWithCode {
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  left: 450px;
+  border: 10px solid #1a1a1a;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+}
+
+
+.numberingContainer {
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  left: 450px;
+}
+
+.numberingHeader {
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.numberingCodeContainer {
+  --color: #72c11d;
+  display: inline-block;
+  min-width: 100px;
+  border: 10px solid var(--color);
+  background-color: var(--color);
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+.numberingCode {
+  display: inline-block;
+  min-width: 100px;
+  border: 5px solid white;
+  background-color: white;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.numberingSuffix {
+  font-size: 60px;
+}
+
+.topNameContainer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.topNameHuge {
+  font-size: 150px;
+  font-weight: bolder;
+  display: flex;
+  width: 700px;
+  margin: auto;
+}
+
+.topNameLetter {
+  flex: 1;
+}
+
+.topOffsetNameContainer {
+  position: absolute;
+  text-align: left;
+  left: 1300px;
+  top: 40px;
+  font-size: 50px;
+}
+
+.bottomNameContainer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 10px;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.emptyStationLine {
+  flex: 1;
+}
+
+.stationLinesContainer {
+  position: absolute;
+  bottom: 90px;
+  display: flex;
+  width: 100%;
+}
+
+.stationLineContainer {
+  display: flex;
+  flex: 1;
+}
+
+.stationLineBar {
+  --color: #006400;
+  height: 80px;
+  flex: 1;
+  background-color: var(--color);
+}
+
+.stationLineBarTopName {
+  color: white;
+  font-size: 50px;
+  padding: 0 50px;
+}
+
+.stationLineBarBottomNameContainer {
+  position: relative;
+  top: 30px;
+  padding: 0 50px;
+  line-height: 50px;
+}
+
+.stationLineBarBottomName {
+  font-size: 50px;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.currentStationLineBar {
+  --color: #72c11d;
+  height: 80px;
+  min-width: 100px;
+  background-color: var(--color);
+}
+
+.stationHeadingLeftTriangle {
+  --color: #006400;
+  min-width: 150px;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 40px solid var(--color);
+}
+
+.stationHeadingRightTriangle {
+  --color: #006400;
+  min-width: 150px;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 40px solid var(--color);
+}
+
+.areaNotationsContainer {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  text-align: right;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+.areaNotation {
+  display: inline-block;
+  border: solid 3px #1a1a1a;
+  border-radius: 10px;
+  padding: 0 4px;
+  margin: 0 10px;
+}
+
+.areaNotationFilled {
+  display: inline-block;
+  border: solid 3px #1a1a1a;
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 10px;
+  padding: 0 4px;
+  margin: 0 10px;
+}
+
+.stationLineBarNumberingRightContainer {
+  position: relative;
+  top: -40px;
+  left: 15px;
+}
+
+.stationLineBarNumberingLeftContainer {
+  position: relative;
+  top: -40px;
+  right: 15px;
+}
+
+.smallNumberingCodeContainer {
+  --color: #72c11d;
+  text-align: center;
+  display: inline-block;
+  border: 5px solid var(--color);
+  background-color: var(--color);
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 0px;
+}
+
+.smallNumberingCode {
+  display: inline-block;
+  border: 5px solid white;
+  background-color: white;
+  font-weight: bold;
+  min-width: 60px;
+  line-height: 15px;
+}
+
+.smallNumberingSuffix {
+  font-size: 35px;
+  line-height: 35px;
+}

@@ -1,0 +1,325 @@
+export const YamanoteLine: Line = {
+  name: {
+    english: 'Yamananote Line',
+    kanji: '山手線',
+    hiragana: 'やまてせん',
+  },
+  loop: true,
+  areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
+  stations: [
+    {
+      code: 'TYO',
+      numbering: 'JY01',
+      name: {
+        english: 'Tokyo',
+        kanji: '東京',
+        hiragana: 'とうきょう',
+        hangul: '도쿄',
+        jiantizi: '东京',
+      },
+    },
+    {
+      code: 'KND',
+      numbering: 'JY02',
+      name: {
+        english: 'Kanda',
+        kanji: '神田',
+        hiragana: 'かんだ',
+        hangul: '칸다',
+        jiantizi: '神田',
+      },
+    },
+    {
+      code: 'AKB',
+      numbering: 'JY03',
+      name: {
+        english: 'Akihabara',
+        kanji: '秋葉原',
+        hiragana: 'あきはばら',
+        hangul: '아키하바라',
+        jiantizi: '秋叶原',
+      },
+    },
+    {
+      numbering: 'JY04',
+      name: {
+        english: 'Okachimachi',
+        kanji: '御徒町',
+        hiragana: 'おかちまち',
+        hangul: '오카치마치',
+        jiantizi: '御徒町',
+      },
+    },
+    {
+      code: 'UEN',
+      numbering: 'JY05',
+      name: {
+        english: 'Ueno',
+        kanji: '上野',
+        hiragana: 'うえの',
+        hangul: '우에노',
+        jiantizi: '上野',
+      },
+    },
+    {
+      numbering: 'JY06',
+      name: {
+        english: 'Uguisudani',
+        kanji: '鶯谷',
+        hiragana: 'うぐいすだに',
+        hangul: '우구이스다니',
+        jiantizi: '鶯谷',
+      },
+    },
+    {
+      code: 'NPR',
+      numbering: 'JY07',
+      name: {
+        english: 'Nippori',
+        kanji: '日暮里',
+        hiragana: 'にっぽり',
+        hangul: '닛포리',
+        jiantizi: '日暮里',
+      },
+    },
+    {
+      numbering: 'JY08',
+      name: {
+        english: 'Nishi Nippori',
+        kanji: '西日暮里',
+        hiragana: 'にしにっぽり',
+        hangul: '니시닛뽀리',
+        jiantizi: '西日暮里',
+      },
+    },
+    {
+      numbering: 'JY09',
+      name: {
+        english: 'Tabata',
+        kanji: '田端',
+        hiragana: 'たばた',
+        hangul: '타바타',
+        jiantizi: '田端',
+      },
+    },
+    {
+      numbering: 'JY10',
+      name: {
+        english: 'Komagome',
+        kanji: '駒込',
+        hiragana: 'こまごめ',
+        hangul: '고마고메',
+        jiantizi: '驹込',
+      },
+    },
+    {
+      numbering: 'JY11',
+      name: {
+        english: 'Sugamo',
+        kanji: '巣鴨',
+        hiragana: 'すがも',
+        hangul: '스가모',
+        jiantizi: '巢鸭',
+      },
+    },
+    {
+      numbering: 'JY12',
+      name: {
+        english: 'Ōtsuka',
+        kanji: '大塚',
+        hiragana: 'おおつか',
+        hangul: '오오츠카',
+        jiantizi: '大塚',
+      },
+    },
+    {
+      code: 'IKB',
+      numbering: 'JY13',
+      name: {
+        english: 'Ikebukuro',
+        kanji: '池袋',
+        hiragana: 'いけぶくろ',
+        hangul: '이케부쿠로',
+        jiantizi: '池袋',
+      },
+    },
+    {
+      numbering: 'JY14',
+      name: {
+        english: 'Mejiro',
+        kanji: '目白',
+        hiragana: 'めじろ',
+        hangul: '메지로',
+        jiantizi: '目白',
+      },
+    },
+    {
+      numbering: 'JY15',
+      name: {
+        english: 'Takadanobaba',
+        kanji: '高田馬場',
+        hiragana: 'たかだのばば',
+        hangul: '다카다노바바',
+        jiantizi: '高田马场',
+      },
+    },
+    {
+      numbering: 'JY16',
+      name: {
+        english: 'Shin Ōkubo',
+        kanji: '新大久保',
+        hiragana: 'しんおおくぼ',
+        hangul: '신오쿠보',
+        jiantizi: '新大久保',
+      },
+    },
+    {
+      code: 'SJK',
+      numbering: 'JY17',
+      name: {
+        english: 'Shinjuku',
+        kanji: '新宿',
+        hiragana: 'しんじゅく',
+        hangul: '신주쿠',
+        jiantizi: '新宿',
+      },
+    },
+    {
+      numbering: 'JY18',
+      name: {
+        english: 'Yoyogi',
+        kanji: '代々木',
+        hiragana: 'よよぎ',
+        hangul: '요요기',
+        jiantizi: '代々木',
+      },
+    },
+    {
+      numbering: 'JY19',
+      name: {
+        english: 'Harajuku',
+        kanji: '原宿',
+        hiragana: 'はらじゅく',
+        hangul: '하라주쿠',
+        jiantizi: '原宿',
+      },
+    },
+    {
+      code: 'SBY',
+      numbering: 'JY20',
+      name: {
+        english: 'Shibuya',
+        kanji: '渋谷',
+        hiragana: 'しぶや',
+        hangul: '시부야',
+        jiantizi: '涩谷',
+      },
+    },
+    {
+      code: 'EBS',
+      numbering: 'JY21',
+      name: {
+        english: 'Ebisu',
+        kanji: '恵比寿',
+        hiragana: 'えびす',
+        hangul: '에비스',
+        jiantizi: '惠比寿',
+      },
+    },
+    {
+      numbering: 'JY22',
+      name: {
+        english: 'Meguro',
+        kanji: '目黒',
+        hiragana: 'めぐろ',
+        hangul: '메구로',
+        jiantizi: '目黑',
+      },
+    },
+    {
+      numbering: 'JY23',
+      name: {
+        english: 'Gotanda',
+        kanji: '五反田',
+        hiragana: 'ごたんだ',
+        hangul: '고탄다',
+        jiantizi: '五反田',
+      },
+    },
+    {
+      code: 'OSK',
+      numbering: 'JY24',
+      name: {
+        english: 'Ōsaki',
+        kanji: '大崎',
+        hiragana: 'おおさき',
+        hangul: '오사키',
+        jiantizi: '大崎',
+      },
+    },
+    {
+      code: 'SGW',
+      numbering: 'JY25',
+      name: {
+        english: 'Shinagawa',
+        kanji: '品川',
+        hiragana: 'しながわ',
+        hangul: '시나가와',
+        jiantizi: '品川',
+      },
+    },
+    {
+      code: 'TGW',
+      numbering: 'JY26',
+      name: {
+        english: 'Takanawa Gateway',
+        kanji: '高輪ゲートウェイ',
+        hiragana: 'だか わ げーと うぇい',
+        hangul: '다카나와게이트웨이',
+        jiantizi: '高轮Gateway',
+      },
+    },
+    {
+      numbering: 'JY27',
+      name: {
+        english: 'Tamachi',
+        kanji: '田町',
+        hiragana: 'たまち',
+        hangul: '타마치',
+        jiantizi: '田町',
+      },
+    },
+    {
+      code: 'HMC',
+      numbering: 'JY28',
+      name: {
+        english: 'Hamamatsuchō',
+        kanji: '浜松町',
+        hiragana: 'はままつまち',
+        hangul: '하마마츠쵸',
+        jiantizi: '浜松町',
+      },
+    },
+    {
+      code: 'SMB',
+      numbering: 'JY29',
+      name: {
+        english: 'Shimbashi',
+        kanji: '新橋',
+        hiragana: 'しんばし',
+        hangul: '신바시',
+        jiantizi: '新桥',
+      },
+    },
+    {
+      numbering: 'JY30',
+      name: {
+        english: 'Yūrakuchō',
+        kanji: '有楽町',
+        hiragana: 'ゆうらくちょう',
+        hangul: '유라쿠쵸',
+        jiantizi: '有乐町',
+      },
+    },
+  ],
+};
