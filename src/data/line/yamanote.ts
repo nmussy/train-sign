@@ -274,7 +274,7 @@ export const YamanoteLine: Line = {
       name: {
         english: 'Takanawa Gateway',
         kanji: '高輪ゲートウェイ',
-        hiragana: 'だか わ げーと うぇい',
+        hiragana: 'たかなわげーとうぇい',
         hangul: '다카나와게이트웨이',
         jiantizi: '高轮Gateway',
       },
