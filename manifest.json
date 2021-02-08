@@ -1,7 +1,7 @@
 {
   "name": "Train Sign",
   "short_name": "train-sign",
-  "start_url": "/train-sign",
+  "start_url": "/train-sign/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
