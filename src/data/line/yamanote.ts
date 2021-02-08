@@ -2,7 +2,7 @@ export const YamanoteLine: Line = {
   name: {
     english: 'Yamanote Line',
     kanji: '山手線',
-    hiragana: 'やまてせん',
+    hiragana: 'やまのてせん',
   },
   loop: true,
   areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
