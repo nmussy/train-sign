@@ -4,6 +4,7 @@ import {useState} from 'preact/hooks';
 import {useResizeDetector} from 'react-resize-detector';
 import {SvgLoader, SvgProxy} from 'react-svgmt';
 import {useWheel} from 'react-use-gesture';
+import baseroute from '../../baseroute';
 import {Lines} from '../../data/line';
 import Sign from '../sign';
 import style from './style.css';
@@ -276,7 +277,7 @@ const Home: FunctionalComponent = () => {
             <SvgLoader
               height="700"
               width="577"
-              path="/assets/line_maps/yamanote.svg"
+              path={`${baseroute}/assets/line_maps/yamanote.svg`}
               {...bindWheel()}
             >
               <SvgProxy selector={'path[data-reset="black"]'} fill="black" />

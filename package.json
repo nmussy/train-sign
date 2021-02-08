@@ -17,7 +17,8 @@
     "lint:js": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:css": "stylelint 'src/**/*.css'",
     "test": "jest ./tests",
-    "predeploy": "yarn run build",
+    "build:gh": "cross-env GITHUB_PAGES=train-sign yarn build && dot-json ./build/manifest.json start_url '/train-sign/'",
+    "predeploy": "yarn run build:gh",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -46,6 +47,8 @@
     "@typescript-eslint/eslint-plugin": "^2.25.0",
     "@typescript-eslint/parser": "^2.25.0",
     "concurrently": "^5.3.0",
+    "cross-env": "^7.0.3",
+    "dot-json": "^1.2.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-preact-pure": "^2.2.0",
     "eslint": "^6.8.0",
