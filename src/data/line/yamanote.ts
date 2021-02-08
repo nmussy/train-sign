@@ -295,7 +295,7 @@ export const YamanoteLine: Line = {
       name: {
         english: 'Hamamatsuchō',
         kanji: '浜松町',
-        hiragana: 'はままつまち',
+        hiragana: 'はままつちょう',
         hangul: '하마마츠쵸',
         jiantizi: '浜松町',
       },
