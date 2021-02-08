@@ -1,19 +1,19 @@
 {
-  "name": "train-sign",
+  "name": "Train Sign",
   "short_name": "train-sign",
-  "start_url": "/",
+  "start_url": "/train-sign",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
   "theme_color": "#006400",
   "icons": [
     {
-      "src": "/assets/icons/android-chrome-192x192.png",
+      "src": "assets/icons/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/icons/android-chrome-512x512.png",
+      "src": "assets/icons/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
