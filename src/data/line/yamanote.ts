@@ -1,6 +1,6 @@
 export const YamanoteLine: Line = {
   name: {
-    english: 'Yamananote Line',
+    english: 'Yamanote Line',
     kanji: '山手線',
     hiragana: 'やまてせん',
   },
