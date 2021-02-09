@@ -1,3 +1,9 @@
+# [v0.2.1](https://github.com/nmussy/train-sign/releases/tag/v0.2.1)
+
+## Bug fixes
+
+- Direction mirrored the sign, instead of just changing the arrow
+
 # [v0.2.0](https://github.com/nmussy/train-sign/releases/tag/v0.2.0)
 
 ## Features
