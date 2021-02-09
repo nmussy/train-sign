@@ -4,7 +4,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #1a1a1a;
+  background: transparent;
   font-family: 'Noto JP', sans-serif;
   overflow-x: hidden;
   font-weight: 400;
@@ -29,6 +29,16 @@ a:visited {
   height: 100%;
 }
 
+.footer__14P9B {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  margin-right: 15px;
+  padding-left: 15px;
+  background-color: #1a1a1a;
+}
+
 .sign__3LTsn {
   -webkit-user-select: none;
       -ms-user-select: none;
@@ -42,22 +52,51 @@ a:visited {
   color: #1a1a1a;
 }
 
+.signBoxShadow__1O1_a {
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+  -ms-transform-origin: top left;
+      transform-origin: top left;
+  height: 490px;
+  width: 1830px;
+  background-color: #f2f0f3;
+  color: #1a1a1a;
+  box-shadow: inset 0 0 15px black;
+}
+
+.topContainer__yfonw {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 220px;
+}
+
+.topContainer__yfonw > div {
+  -ms-flex: 0 1 50%;
+      flex: 0 1 50%;
+  white-space: nowrap;
+}
+
 .numberingContainerWithCode__3OztG {
+  float: right;
+  position: relative;
+  top: 40px;
   text-align: center;
-  position: absolute;
-  top: 20px;
-  left: 450px;
   border: 10px solid #1a1a1a;
   background-color: #1a1a1a;
   border-radius: 10px;
+  max-width: 140px;
 }
-
 
 .numberingContainer__eYaZW {
   text-align: center;
-  position: absolute;
-  top: 20px;
-  left: 450px;
+  float: right;
+  position: relative;
+  top: 40px;
+  right: 6px;
 }
 
 .numberingHeader__34JSf {
@@ -69,6 +108,7 @@ a:visited {
 
 .numberingCodeContainer__PADQ2 {
   --color: #72c11d;
+
   display: inline-block;
   min-width: 100px;
   border: 10px solid var(--color);
@@ -92,20 +132,18 @@ a:visited {
 }
 
 .topNameContainer__35_Rr {
-  position: absolute;
-  width: 100%;
+  -ms-flex-preferred-size: 100% !important;
+      flex-basis: 100% !important;
   text-align: center;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .topNameHuge__2I6xy {
   font-size: 150px;
-  font-weight: bolder;
+  height: 230px;
   display: -ms-flexbox;
   display: flex;
-  width: 700px;
-  margin: auto;
 }
 
 .topNameLetter__2j82t {
@@ -114,9 +152,9 @@ a:visited {
 }
 
 .topOffsetNameContainer__f0PCu {
-  position: absolute;
   text-align: left;
-  left: 1300px;
+  margin-top: 25px;
+  line-height: 70px;
   top: 40px;
   font-size: 50px;
 }
@@ -128,11 +166,6 @@ a:visited {
   bottom: 10px;
   font-size: 60px;
   font-weight: bolder;
-}
-
-.emptyStationLine__3aICr {
-  -ms-flex: 1;
-      flex: 1;
 }
 
 .stationLinesContainer__1g04E {
@@ -152,6 +185,7 @@ a:visited {
 
 .stationLineBar__3rBKR {
   --color: #006400;
+
   height: 80px;
   -ms-flex: 1;
       flex: 1;
@@ -161,6 +195,7 @@ a:visited {
 .stationLineBarTopName__1eDRF {
   color: white;
   font-size: 50px;
+  height: 70px;
   padding: 0 50px;
 }
 
@@ -179,6 +214,7 @@ a:visited {
 
 .currentStationLineBar__1Gom7 {
   --color: #72c11d;
+
   height: 80px;
   min-width: 100px;
   background-color: var(--color);
@@ -186,20 +222,22 @@ a:visited {
 
 .stationHeadingLeftTriangle__2hwfD {
   --color: #006400;
+
   min-width: 150px;
   height: 0;
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
-  border-right: 40px solid var(--color);
+  border-right: 90px solid var(--color);
 }
 
 .stationHeadingRightTriangle__3VTTg {
   --color: #006400;
+
   min-width: 150px;
   height: 0;
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
-  border-left: 40px solid var(--color);
+  border-left: 90px solid var(--color);
 }
 
 .areaNotationsContainer__oqS1k {
@@ -244,6 +282,7 @@ a:visited {
 
 .smallNumberingCodeContainer__3Bh67 {
   --color: #72c11d;
+
   text-align: center;
   display: inline-block;
   border: 5px solid var(--color);
@@ -267,9 +306,16 @@ a:visited {
   line-height: 35px;
 }
 
+.homeContainer__dQJ27 {
+  background: #1a1a1a;
+  height: 100%;
+  overflow: auto;
+}
+
 .home__MseGd {
-  /* Header padding */
-  /* padding: 56px 20px; */
+  /* Header padding
+  padding: 56px 20px; */
+
   padding: 5px 20px;
   margin: auto;
   min-height: 100%;
@@ -284,6 +330,7 @@ a:visited {
   display: -ms-flexbox;
   display: flex;
 }
+
 .optionContainer__-58xJ > div {
   -ms-flex: 1;
       flex: 1;
@@ -292,6 +339,7 @@ a:visited {
 .form__3VhiU label {
   margin-right: 5px;
 }
+
 .form__3VhiU label button,
 .form__3VhiU label input,
 .form__3VhiU label select {
@@ -317,15 +365,5 @@ a:visited {
   margin: 100px 0;
 }
 
-.footer__14P9B {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  text-align: right;
-  margin-right: 15px;
-  padding-left: 15px;
-  background-color: #1a1a1a;
-}
 
-
-/*# sourceMappingURL=ssr-bundle.ea7d0.css.map*/
+/*# sourceMappingURL=ssr-bundle.ac00b.css.map*/
