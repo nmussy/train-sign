@@ -5,7 +5,14 @@ const Footer: FunctionalComponent = () => {
   return (
     <footer class={style.footer}>
       <p>
-        v0.1.0 |{' '}
+        <a
+          rel="noreferrer noopener"
+          target="_blank"
+          href="//github.com/nmussy/train-sign/releases"
+        >
+          v0.2.0
+        </a>{' '}
+        |{' '}
         <a
           rel="noreferrer noopener"
           target="_blank"
@@ -20,6 +27,14 @@ const Footer: FunctionalComponent = () => {
           href="//discord.gg/qwns6crVHf"
         >
           DdG Discord
+        </a>{' '}
+        |{' '}
+        <a
+          rel="noreferrer noopener"
+          target="_blank"
+          href="//morgansleeper.github.io/Yamanotes/"
+        >
+          Yamanotes
         </a>{' '}
         | Inspired by{' '}
         <a

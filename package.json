@@ -34,6 +34,9 @@
   },
   "dependencies": {
     "@rooks/use-key": "^4.8.1",
+    "base64-js": "^1.5.1",
+    "copy-to-clipboard": "^3.3.1",
+    "howler": "^2.2.1",
     "preact": "^10.3.1",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^3.2.1",
@@ -43,6 +46,7 @@
   },
   "devDependencies": {
     "@types/enzyme": "^3.10.5",
+    "@types/howler": "^2.2.1",
     "@types/jest": "^26.0.8",
     "@typescript-eslint/eslint-plugin": "^2.25.0",
     "@typescript-eslint/parser": "^2.25.0",

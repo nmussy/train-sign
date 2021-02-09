@@ -36,6 +36,7 @@ interface SignStation {
   color?: string;
   heading?: boolean;
   trains?: Numbering[];
+  melodyUrl?: string;
 }
 
 interface AreaNotation {
@@ -57,10 +58,23 @@ interface Station {
   code?: string;
   numbering: string;
   name: QuadrilingualName;
+  melodyUrl?: string;
+  areaNotations?: AreaNotation[];
 }
 interface Line {
   name: BilangualName;
   stations: Station[];
+  color?: string;
   loop?: boolean;
   areaNotations?: AreaNotation[];
+  map?: string;
+}
+
+interface SerializedState {
+  currentLineIndex?: number;
+  currentStationIndex?: number;
+  disabledStationIndexes?: number[];
+  direction?: DIRECTION;
+  autoplayMelodies?: boolean;
+  boxShadow?: boolean;
 }

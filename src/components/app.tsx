@@ -1,10 +1,8 @@
 import {FunctionalComponent, h} from 'preact';
 import {Route, Router} from 'preact-router';
 import baseroute from '../baseroute';
-
 import Home from '../routes/home';
 import NotFoundPage from '../routes/notfound';
-import Footer from './footer';
 
 const App: FunctionalComponent = () => {
   return (
@@ -14,7 +12,6 @@ const App: FunctionalComponent = () => {
         <Route path={`${baseroute}/`} component={Home} />
         <NotFoundPage default />
       </Router>
-      <Footer />
     </div>
   );
 };

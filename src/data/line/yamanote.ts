@@ -1,11 +1,15 @@
+import baseroute from '../../baseroute';
+
 export const YamanoteLine: Line = {
   name: {
     english: 'Yamanote Line',
     kanji: '山手線',
     hiragana: 'やまのてせん',
   },
+  color: '#72c11d',
   loop: true,
   areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
+  map: `${baseroute}/assets/line_maps/yamanote.svg`,
   stations: [
     {
       code: 'TYO',
@@ -17,6 +21,7 @@ export const YamanoteLine: Line = {
         hangul: '도쿄',
         jiantizi: '东京',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/sh3.mp3',
     },
     {
       code: 'KND',
@@ -28,6 +33,7 @@ export const YamanoteLine: Line = {
         hangul: '칸다',
         jiantizi: '神田',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/seseragi.mp3',
     },
     {
       code: 'AKB',
@@ -39,6 +45,7 @@ export const YamanoteLine: Line = {
         hangul: '아키하바라',
         jiantizi: '秋叶原',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/ogawav1.mp3',
     },
     {
       numbering: 'JY04',
@@ -49,6 +56,7 @@ export const YamanoteLine: Line = {
         hangul: '오카치마치',
         jiantizi: '御徒町',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harutrem.mp3',
     },
     {
       code: 'UEN',
@@ -60,6 +68,7 @@ export const YamanoteLine: Line = {
         hangul: '우에노',
         jiantizi: '上野',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/bellb.mp3',
     },
     {
       numbering: 'JY06',
@@ -70,6 +79,7 @@ export const YamanoteLine: Line = {
         hangul: '우구이스다니',
         jiantizi: '鶯谷',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harutrem.mp3',
     },
     {
       code: 'NPR',
@@ -81,6 +91,7 @@ export const YamanoteLine: Line = {
         hangul: '닛포리',
         jiantizi: '日暮里',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harutrem.mp3',
     },
     {
       numbering: 'JY08',
@@ -91,6 +102,7 @@ export const YamanoteLine: Line = {
         hangul: '니시닛뽀리',
         jiantizi: '西日暮里',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harutrem.mp3',
     },
     {
       numbering: 'JY09',
@@ -101,6 +113,7 @@ export const YamanoteLine: Line = {
         hangul: '타바타',
         jiantizi: '田端',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harutrem.mp3',
     },
     {
       numbering: 'JY10',
@@ -111,6 +124,7 @@ export const YamanoteLine: Line = {
         hangul: '고마고메',
         jiantizi: '驹込',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/sakurab.mp3',
     },
     {
       numbering: 'JY11',
@@ -121,6 +135,7 @@ export const YamanoteLine: Line = {
         hangul: '스가모',
         jiantizi: '巢鸭',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/haru.mp3',
     },
     {
       numbering: 'JY12',
@@ -131,6 +146,7 @@ export const YamanoteLine: Line = {
         hangul: '오오츠카',
         jiantizi: '大塚',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/haru.mp3',
     },
     {
       code: 'IKB',
@@ -142,6 +158,7 @@ export const YamanoteLine: Line = {
         hangul: '이케부쿠로',
         jiantizi: '池袋',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/melody.mp3',
     },
     {
       numbering: 'JY14',
@@ -152,6 +169,7 @@ export const YamanoteLine: Line = {
         hangul: '메지로',
         jiantizi: '目白',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/haru.mp3',
     },
     {
       numbering: 'JY15',
@@ -162,6 +180,7 @@ export const YamanoteLine: Line = {
         hangul: '다카다노바바',
         jiantizi: '高田马场',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/astrob.mp3',
     },
     {
       numbering: 'JY16',
@@ -172,6 +191,7 @@ export const YamanoteLine: Line = {
         hangul: '신오쿠보',
         jiantizi: '新大久保',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/bellb.mp3',
     },
     {
       code: 'SJK',
@@ -183,6 +203,7 @@ export const YamanoteLine: Line = {
         hangul: '신주쿠',
         jiantizi: '新宿',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/aratana.mp3',
     },
     {
       numbering: 'JY18',
@@ -193,6 +214,7 @@ export const YamanoteLine: Line = {
         hangul: '요요기',
         jiantizi: '代々木',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/haru.mp3',
     },
     {
       numbering: 'JY19',
@@ -203,6 +225,7 @@ export const YamanoteLine: Line = {
         hangul: '하라주쿠',
         jiantizi: '原宿',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harajukua.mp3',
     },
     {
       code: 'SBY',
@@ -214,6 +237,7 @@ export const YamanoteLine: Line = {
         hangul: '시부야',
         jiantizi: '涩谷',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/hananohorokobi.mp3',
     },
     {
       code: 'EBS',
@@ -225,6 +249,7 @@ export const YamanoteLine: Line = {
         hangul: '에비스',
         jiantizi: '惠比寿',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/thirdman.mp3',
     },
     {
       numbering: 'JY22',
@@ -235,6 +260,7 @@ export const YamanoteLine: Line = {
         hangul: '메구로',
         jiantizi: '目黑',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/watercrown.mp3',
     },
     {
       numbering: 'JY23',
@@ -245,6 +271,7 @@ export const YamanoteLine: Line = {
         hangul: '고탄다',
         jiantizi: '五反田',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/sh23.mp3',
     },
     {
       code: 'OSK',
@@ -256,6 +283,7 @@ export const YamanoteLine: Line = {
         hangul: '오사키',
         jiantizi: '大崎',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/uminoeki.mp3',
     },
     {
       code: 'SGW',
@@ -267,6 +295,7 @@ export const YamanoteLine: Line = {
         hangul: '시나가와',
         jiantizi: '品川',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/seseragi.mp3',
     },
     {
       code: 'TGW',
@@ -278,6 +307,7 @@ export const YamanoteLine: Line = {
         hangul: '다카나와게이트웨이',
         jiantizi: '高轮Gateway',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/sweetcall.mp3',
     },
     {
       numbering: 'JY27',
@@ -288,6 +318,7 @@ export const YamanoteLine: Line = {
         hangul: '타마치',
         jiantizi: '田町',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/seseragi.mp3',
     },
     {
       code: 'HMC',
@@ -299,6 +330,7 @@ export const YamanoteLine: Line = {
         hangul: '하마마츠쵸',
         jiantizi: '浜松町',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/seseragi.mp3',
     },
     {
       code: 'SMB',
@@ -310,6 +342,7 @@ export const YamanoteLine: Line = {
         hangul: '신바시',
         jiantizi: '新桥',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/gotadelvient.mp3',
     },
     {
       numbering: 'JY30',
@@ -320,6 +353,7 @@ export const YamanoteLine: Line = {
         hangul: '유라쿠쵸',
         jiantizi: '有乐町',
       },
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/sh21.mp3',
     },
   ],
 };

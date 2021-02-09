@@ -1,4 +1,4 @@
-import {FunctionalComponent, h} from 'preact';
+import {Fragment, FunctionalComponent, h} from 'preact';
 import style from './style.css';
 
 const SignStationLine: FunctionalComponent<{
@@ -57,45 +57,65 @@ const SignStationLine: FunctionalComponent<{
 export interface SignProperties {
   sign: SignData;
   scale?: number;
+  boxShadow?: boolean;
 }
 
-const Sign: FunctionalComponent<SignProperties> = ({sign, scale = 1}) => (
-  <div class={style.sign} style={{transform: `scale(${scale})`}}>
-    {sign.numbering ? (
-      <div
-        class={
-          sign.code
-            ? style.numberingContainerWithCode
-            : style.numberingContainer
-        }
-      >
-        <div class={style.numberingHeader}>{sign.code}</div>
-        <div
-          class={style.numberingCodeContainer}
-          style={sign.numbering.color ? {'--color': sign.numbering.color} : {}}
-        >
-          <div class={style.numberingCode}>
-            <div>{sign.numbering.prefix}</div>
-            <div class={style.numberingSuffix}>{sign.numbering.suffix}</div>
+const Sign: FunctionalComponent<SignProperties> = ({
+  sign,
+  scale = 1,
+  boxShadow = false,
+}) => (
+  <div
+    class={boxShadow ? style.signBoxShadow : style.sign}
+    style={{transform: `scale(${scale})`}}
+  >
+    <div class={style.topContainer}>
+      <div class={style.topNumberingContainer}>
+        {sign.numbering ? (
+          <div
+            class={
+              sign.code
+                ? style.numberingContainerWithCode
+                : style.numberingContainer
+            }
+          >
+            <div class={style.numberingHeader}>{sign.code}</div>
+            <div
+              class={style.numberingCodeContainer}
+              style={
+                sign.numbering.color ? {'--color': sign.numbering.color} : {}
+              }
+            >
+              <div class={style.numberingCode}>
+                <div>{sign.numbering.prefix}</div>
+                <div class={style.numberingSuffix}>{sign.numbering.suffix}</div>
+              </div>
+            </div>
           </div>
-        </div>
+        ) : null}
       </div>
-    ) : null}
 
-    <div class={style.topNameContainer}>
-      <div class={style.topNameHuge}>
-        {sign.name.kanji.split('').map((letter, index) => (
-          <span class={style.topNameLetter} key={index}>
-            {letter}
-          </span>
-        ))}
+      <div class={style.topNameContainer}>
+        <div class={style.topNameHuge}>
+          {sign.name.kanji.split('').map((letter, index) => (
+            <span class={style.topNameLetter} key={index}>
+              {letter}
+            </span>
+          ))}
+        </div>
+        <div>{sign.name.hiragana}</div>
       </div>
-      <div>{sign.name.hiragana}</div>
+
+      <div class={style.topOffsetNameContainer}>
+        {sign.name.kanji.length < 7 ? (
+          <Fragment>
+            <div>{sign.name.jiantizi}</div>
+            <div>{sign.name.hangul}</div>
+          </Fragment>
+        ) : null}
+      </div>
     </div>
-    <div class={style.topOffsetNameContainer}>
-      <div>{sign.name.jiantizi}</div>
-      <div>{sign.name.hangul}</div>
-    </div>
+
     <div class={style.areaNotationsContainer}>
       {sign.areaNotations?.map(({letter, fill}) => (
         <div class={fill ? style.areaNotationFilled : style.areaNotation}>
@@ -103,11 +123,12 @@ const Sign: FunctionalComponent<SignProperties> = ({sign, scale = 1}) => (
         </div>
       ))}
     </div>
+
     <div class={style.stationLinesContainer}>
       {sign.left ? (
         <SignStationLine line={sign.left} />
       ) : (
-        <div class={style.emptyStationLine} />
+        <div class={style.stationLineBar} />
       )}
       <div
         class={style.currentStationLineBar}
@@ -116,7 +137,7 @@ const Sign: FunctionalComponent<SignProperties> = ({sign, scale = 1}) => (
       {sign.right ? (
         <SignStationLine line={sign.right} align="right" />
       ) : (
-        <div class={style.emptyStationLine} />
+        <div class={style.stationLineBar} />
       )}
     </div>
     <div class={style.bottomNameContainer}>

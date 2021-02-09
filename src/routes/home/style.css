@@ -1,6 +1,13 @@
+.homeContainer {
+  background: #1a1a1a;
+  height: 100%;
+  overflow: auto;
+}
+
 .home {
-  /* Header padding */
-  /* padding: 56px 20px; */
+  /* Header padding
+  padding: 56px 20px; */
+
   padding: 5px 20px;
   margin: auto;
   min-height: 100%;
@@ -14,6 +21,7 @@
 .optionContainer {
   display: flex;
 }
+
 .optionContainer > div {
   flex: 1;
 }
@@ -21,6 +29,7 @@
 .form label {
   margin-right: 5px;
 }
+
 .form label button,
 .form label input,
 .form label select {
