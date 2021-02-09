@@ -96,7 +96,7 @@ export const YamanoteLine: Line = {
     {
       numbering: 'JY08',
       name: {
-        english: 'Nishi Nippori',
+        english: 'Nishi-Nippori',
         kanji: '西日暮里',
         hiragana: 'にしにっぽり',
         hangul: '니시닛뽀리',
@@ -185,7 +185,7 @@ export const YamanoteLine: Line = {
     {
       numbering: 'JY16',
       name: {
-        english: 'Shin Ōkubo',
+        english: 'Shin-Ōkubo',
         kanji: '新大久保',
         hiragana: 'しんおおくぼ',
         hangul: '신오쿠보',
