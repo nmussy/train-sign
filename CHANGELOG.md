@@ -3,6 +3,7 @@
 ## Bug fixes
 
 - Direction mirrored the sign, instead of just changing the arrow
+- Hyphenate some romaji
 
 # [v0.2.0](https://github.com/nmussy/train-sign/releases/tag/v0.2.0)
 
