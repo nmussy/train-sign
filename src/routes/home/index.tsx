@@ -91,9 +91,7 @@ const generateSign = (
           ...station,
           numbering: getNumbering(station.numbering, line.color),
           trains: [getNumbering(station.numbering, line.color)],
-          heading: index
-            ? direction === DIRECTION.LEFT_TO_RIGHT
-            : direction === DIRECTION.RIGHT_TO_LEFT,
+          heading: !!index,
         }
       : undefined,
   );
@@ -101,8 +99,8 @@ const generateSign = (
   return {
     ...currentStation,
     numbering: getNumbering(currentStation.numbering, line.color),
-    left,
-    right,
+    left: direction === DIRECTION.LEFT_TO_RIGHT ? left : right,
+    right: direction === DIRECTION.LEFT_TO_RIGHT ? right : left,
     areaNotations: currentStation.areaNotations ?? line.areaNotations,
     color: line.color,
   };
