@@ -39,7 +39,7 @@ a:visited {
   background-color: #1a1a1a;
 }
 
-.sign__3LTsn {
+.sign__2peUK {
   -webkit-user-select: none;
       -ms-user-select: none;
           user-select: none;
@@ -52,7 +52,7 @@ a:visited {
   color: #1a1a1a;
 }
 
-.signBoxShadow__1O1_a {
+.signBoxShadow__1sWrC {
   -webkit-user-select: none;
       -ms-user-select: none;
           user-select: none;
@@ -66,7 +66,7 @@ a:visited {
   box-shadow: inset 0 0 15px black;
 }
 
-.topContainer__yfonw {
+.topContainer__332xs {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
@@ -74,13 +74,13 @@ a:visited {
   margin: 0 220px;
 }
 
-.topContainer__yfonw > div {
+.topContainer__332xs > div {
   -ms-flex: 0 1 50%;
       flex: 0 1 50%;
   white-space: nowrap;
 }
 
-.numberingContainerWithCode__3OztG {
+.numberingContainerWithCode__fIoUJ {
   float: right;
   position: relative;
   top: 40px;
@@ -91,7 +91,7 @@ a:visited {
   max-width: 140px;
 }
 
-.numberingContainer__eYaZW {
+.numberingContainer__1iW4c {
   text-align: center;
   float: right;
   position: relative;
@@ -99,14 +99,14 @@ a:visited {
   right: 6px;
 }
 
-.numberingHeader__34JSf {
+.numberingHeader__3T7X_ {
   background-color: #1a1a1a;
   color: white;
   font-size: 40px;
   font-weight: bold;
 }
 
-.numberingCodeContainer__PADQ2 {
+.numberingCodeContainer__kkVV4 {
   --color: #72c11d;
 
   display: inline-block;
@@ -117,7 +117,7 @@ a:visited {
   font-size: 50px;
 }
 
-.numberingCode__3GjeE {
+.numberingCode__3dWn6 {
   display: inline-block;
   min-width: 100px;
   border: 5px solid white;
@@ -127,11 +127,11 @@ a:visited {
   line-height: 50px;
 }
 
-.numberingSuffix__2r0iw {
+.numberingSuffix__1n5tv {
   font-size: 60px;
 }
 
-.topNameContainer__35_Rr {
+.topNameContainer__2s1h8 {
   -ms-flex-preferred-size: 100% !important;
       flex-basis: 100% !important;
   text-align: center;
@@ -139,19 +139,19 @@ a:visited {
   font-weight: bolder;
 }
 
-.topNameHuge__2I6xy {
+.topNameHuge__3rWFS {
   font-size: 150px;
   height: 230px;
   display: -ms-flexbox;
   display: flex;
 }
 
-.topNameLetter__2j82t {
+.topNameLetter__1p9mF {
   -ms-flex: 1;
       flex: 1;
 }
 
-.topOffsetNameContainer__f0PCu {
+.topOffsetNameContainer__2fSyH {
   text-align: left;
   margin-top: 25px;
   line-height: 70px;
@@ -159,7 +159,7 @@ a:visited {
   font-size: 50px;
 }
 
-.bottomNameContainer__19NhB {
+.bottomNameContainer__osVpT {
   position: absolute;
   width: 100%;
   text-align: center;
@@ -168,7 +168,7 @@ a:visited {
   font-weight: bolder;
 }
 
-.stationLinesContainer__1g04E {
+.stationLinesContainer__3p1mh {
   position: absolute;
   bottom: 90px;
   display: -ms-flexbox;
@@ -176,14 +176,14 @@ a:visited {
   width: 100%;
 }
 
-.stationLineContainer__1e2Mx {
+.stationLineContainer__2agpK {
   display: -ms-flexbox;
   display: flex;
   -ms-flex: 1;
       flex: 1;
 }
 
-.stationLineBar__3rBKR {
+.stationLineBar__3mmSY {
   --color: #006400;
 
   height: 80px;
@@ -192,27 +192,27 @@ a:visited {
   background-color: var(--color);
 }
 
-.stationLineBarTopName__1eDRF {
+.stationLineBarTopName__1RRy5 {
   color: white;
   font-size: 50px;
   height: 70px;
   padding: 0 50px;
 }
 
-.stationLineBarBottomNameContainer__bhzCb {
+.stationLineBarBottomNameContainer__Y_mMO {
   position: relative;
   top: 30px;
   padding: 0 50px;
   line-height: 50px;
 }
 
-.stationLineBarBottomName__3ib2Q {
+.stationLineBarBottomName__7knZm {
   font-size: 50px;
   display: inline-block;
   margin: 0 15px;
 }
 
-.currentStationLineBar__1Gom7 {
+.currentStationLineBar__Frjp- {
   --color: #72c11d;
 
   height: 80px;
@@ -220,7 +220,7 @@ a:visited {
   background-color: var(--color);
 }
 
-.stationHeadingLeftTriangle__2hwfD {
+.stationHeadingLeftTriangle__wBJIj {
   --color: #006400;
 
   min-width: 150px;
@@ -230,7 +230,7 @@ a:visited {
   border-right: 90px solid var(--color);
 }
 
-.stationHeadingRightTriangle__3VTTg {
+.stationHeadingRightTriangle__3m-An {
   --color: #006400;
 
   min-width: 150px;
@@ -240,7 +240,7 @@ a:visited {
   border-left: 90px solid var(--color);
 }
 
-.areaNotationsContainer__oqS1k {
+.areaNotationsContainer__2m6Mf {
   position: absolute;
   top: 40px;
   right: 40px;
@@ -250,7 +250,7 @@ a:visited {
   font-weight: bold;
 }
 
-.areaNotation__2WE8X {
+.areaNotation__3PYV3 {
   display: inline-block;
   border: solid 3px #1a1a1a;
   border-radius: 10px;
@@ -258,7 +258,7 @@ a:visited {
   margin: 0 10px;
 }
 
-.areaNotationFilled__2UQTW {
+.areaNotationFilled__1lk5Z {
   display: inline-block;
   border: solid 3px #1a1a1a;
   background-color: #1a1a1a;
@@ -268,19 +268,19 @@ a:visited {
   margin: 0 10px;
 }
 
-.stationLineBarNumberingRightContainer__3QRRH {
+.stationLineBarNumberingRightContainer__1hWeS {
   position: relative;
   top: -40px;
   left: 15px;
 }
 
-.stationLineBarNumberingLeftContainer__2sRw_ {
+.stationLineBarNumberingLeftContainer__2NXPi {
   position: relative;
   top: -40px;
   right: 15px;
 }
 
-.smallNumberingCodeContainer__3Bh67 {
+.smallNumberingCodeContainer__2lIXc {
   --color: #72c11d;
 
   text-align: center;
@@ -292,7 +292,7 @@ a:visited {
   line-height: 0px;
 }
 
-.smallNumberingCode__1KQG7 {
+.smallNumberingCode__mnNpq {
   display: inline-block;
   border: 5px solid white;
   background-color: white;
@@ -301,9 +301,202 @@ a:visited {
   line-height: 15px;
 }
 
-.smallNumberingSuffix__1crQ3 {
+.smallNumberingSuffix__2EdAF {
   font-size: 35px;
   line-height: 35px;
+}
+
+.signContainer__3ZQzV {
+  -ms-transform-origin: top left;
+      transform-origin: top left;
+  position: relative;
+  height: 490px;
+  width: 1830px;
+}
+
+.sign__1IDGT,
+.signDark__1WBCh {
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.sign__1IDGT {
+  background-color: white;
+  color: #1a1a1a;
+}
+
+.signDark__1WBCh {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.topContainer__1bnAU {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 100px;
+}
+
+.topContainer__1bnAU > div {
+  -ms-flex: 0 1 50%;
+      flex: 0 1 50%;
+  white-space: nowrap;
+}
+
+.logoContainer__18mUq {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.logoContainer__18mUq > img {
+  max-width: 150px;
+}
+
+.topNameContainer__1vjQo {
+  -ms-flex-preferred-size: 100% !important;
+      flex-basis: 100% !important;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.topNameHuge__22DzK {
+  font-size: 150px;
+  height: 230px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topNameLetter__1ywgb {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.topName__1kjQG {
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 100px;
+}
+
+.topName__1kjQG > div {
+  -ms-flex: 1;
+      flex: 1;
+  margin: 0 20px;
+}
+
+.stationLinesContainer__3TcAy {
+  --color: #ee354f;
+
+  position: absolute;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 140px;
+  background-color: var(--color);
+}
+
+.directionArrow__ZCIC_ {
+  font-family: monospace;
+  font-size: 250px;
+  line-height: 120px;
+}
+
+.stationLineContainer__3_2Zo,
+.stationLineContainerRight__1-VOa {
+  white-space: nowrap;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+      flex: 1;
+  color: white;
+}
+
+.stationLineContainerRight__1-VOa {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
+.stationLineContainer__3_2Zo > div {
+  -ms-flex: 0 1;
+      flex: 0 1;
+}
+
+.stationLineName__M6Gek {
+  padding: 0 35px;
+}
+
+.stationLineBarTopName__35Gsr {
+  color: white;
+  font-size: 50px;
+  height: 70px;
+}
+
+.stationLineBarBottomNameContainer__iJ7x9 {
+  position: relative;
+  top: 10px;
+  line-height: 50px;
+}
+
+.stationLineBarBottomName__34WyH {
+  font-size: 50px;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.areaNotationsContainer__H2Icd {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  text-align: right;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+.areaNotation__3t83I {
+  display: inline-block;
+  border: solid 3px #0473bd;
+  padding: 0 4px;
+  margin: 0 10px;
+}
+
+.areaNotationFilled__1vtVb {
+  display: inline-block;
+  border: solid 3px #0473bd;
+  background-color: #0473bd;
+  color: white;
+  padding: 0 4px;
+  margin: 0 10px;
+}
+
+.signContainer__11b5J {
+  -ms-transform-origin: top left;
+      transform-origin: top left;
+  position: relative;
+  height: 490px;
+  width: 1830px;
+}
+
+.signBoxShadow__1O1_a {
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  color: #1a1a1a;
+  box-shadow: inset 0 0 15px black;
 }
 
 .homeContainer__dQJ27 {
@@ -366,4 +559,4 @@ a:visited {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.ac00b.css.map*/
+/*# sourceMappingURL=ssr-bundle.7e88c.css.map*/
