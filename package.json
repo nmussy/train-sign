@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "train-sign",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "license": "MIT",
   "author": "Jimmy Gaussen",
   "homepage": "https://nmussy.github.io/train-sign",

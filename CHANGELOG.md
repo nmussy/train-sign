@@ -1,3 +1,9 @@
+# [v0.3.1](https://github.com/nmussy/train-sign/releases/tag/v0.3.1)
+
+## Bug fixes
+
+- Firefox monospace font for JR West arrow
+
 # [v0.3.0](https://github.com/nmussy/train-sign/releases/tag/v0.3.0)
 
 ## Features
