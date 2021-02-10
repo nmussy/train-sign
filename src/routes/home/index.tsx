@@ -9,7 +9,7 @@ import baseroute from '../../baseroute';
 import Footer from '../../components/footer';
 import {Lines} from '../../data/line';
 import {copyUrlToClipboard} from '../../util/clipboard';
-import {DIRECTION} from '../../util/enums';
+import {COMPANY, DIRECTION} from '../../util/enums';
 import {
   serialize,
   deserialize,
@@ -83,14 +83,15 @@ const generateSign = (
     disabledStationIndexes,
   );
 
+  const {company, color, areaNotations} = line;
   const [left, right] = [leftStation, rightStation].map<
     SignStation | undefined
   >((station, index) =>
     station
       ? {
           ...station,
-          numbering: getNumbering(station.numbering, line.color),
-          trains: [getNumbering(station.numbering, line.color)],
+          numbering: getNumbering(station.numbering, color),
+          trains: [getNumbering(station.numbering, color)],
           heading: !!index,
         }
       : undefined,
@@ -98,11 +99,12 @@ const generateSign = (
 
   return {
     ...currentStation,
-    numbering: getNumbering(currentStation.numbering, line.color),
+    company,
+    color,
+    numbering: getNumbering(currentStation.numbering, color),
     left: direction === DIRECTION.LEFT_TO_RIGHT ? left : right,
     right: direction === DIRECTION.LEFT_TO_RIGHT ? right : left,
-    areaNotations: currentStation.areaNotations ?? line.areaNotations,
-    color: line.color,
+    areaNotations: currentStation.areaNotations ?? areaNotations,
   };
 };
 
@@ -138,6 +140,7 @@ const Home: FunctionalComponent = () => {
     defaultState.autoplayMelodies,
   );
   const [howl, setHowl] = useState<Howl | null>(null);
+  const [darkMode, setDarkMode] = useState(false);
 
   const setStationHelper = (station: Station, preventHowl = false): void => {
     _setCurrentStation(station);
@@ -155,6 +158,10 @@ const Home: FunctionalComponent = () => {
     _setCurrentLine(line);
     setStationHelper(line.stations[0], true);
     setDisabledStationIndexes([]);
+
+    if (darkMode && line.company !== COMPANY.JR_WEST) {
+      setDarkMode(false);
+    }
   };
 
   const [direction, _setDirection] = useState<DIRECTION>(
@@ -313,6 +320,7 @@ const Home: FunctionalComponent = () => {
             )}
             scale={scaleRatio}
             boxShadow={boxShadow}
+            darkMode={darkMode}
           />
         </div>
         <div class={style.optionContainer}>
@@ -377,6 +385,20 @@ const Home: FunctionalComponent = () => {
                   </button>
                 </label>
               </div>
+              {currentLine.company === COMPANY.JR_WEST ? (
+                <div>
+                  <label>
+                    Dark background
+                    <button
+                      onClick={(): void => {
+                        setDarkMode(!darkMode);
+                      }}
+                    >
+                      {darkMode ? 'Disable' : 'Enable'}
+                    </button>
+                  </label>
+                </div>
+              ) : null}
               <div>
                 <button
                   disabled={!leftStation}

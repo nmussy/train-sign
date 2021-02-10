@@ -1,3 +1,16 @@
+# [v0.3.0](https://github.com/nmussy/train-sign/releases/tag/v0.3.0)
+
+## Features
+
+- JR West sign support
+- New lines:
+  - Osaka Loop Line
+- Dark JR West signs
+
+## Chores
+
+- Some light sign refactoring to support multiple companies
+
 # [v0.2.1](https://github.com/nmussy/train-sign/releases/tag/v0.2.1)
 
 ## Bug fixes
@@ -36,6 +49,7 @@
 ## Features
 
 - Larger signs (standard used by Sigene?)
+  - Fully responsive signs might be better
 - Add options to hide various parts of the sign
 - Electron binaries
   - Local network, remote web page
@@ -48,6 +62,7 @@
 
 ## Chores
 
+- Versionning automation
 - Minor refactors, component splitting
 - Testing
 - GH Actions CI/CD

@@ -1,0 +1,154 @@
+.signContainer {
+  transform-origin: top left;
+  position: relative;
+  height: 490px;
+  width: 1830px;
+}
+
+.sign,
+.signDark {
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.sign {
+  background-color: white;
+  color: #1a1a1a;
+}
+
+.signDark {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 100px;
+}
+
+.topContainer > div {
+  flex: 0 1 50%;
+  white-space: nowrap;
+}
+
+.logoContainer {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.logoContainer > img {
+  max-width: 150px;
+}
+
+.topNameContainer {
+  flex-basis: 100% !important;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.topNameHuge {
+  font-size: 150px;
+  height: 230px;
+  display: flex;
+}
+
+.topNameLetter {
+  flex: 1;
+}
+
+.topName {
+  display: flex;
+  line-height: 100px;
+}
+
+.topName > div {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.stationLinesContainer {
+  --color: #ee354f;
+
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 140px;
+  background-color: var(--color);
+}
+
+.directionArrow {
+  font-family: monospace;
+  font-size: 250px;
+  line-height: 120px;
+}
+
+.stationLineContainer,
+.stationLineContainerRight {
+  white-space: nowrap;
+  display: flex;
+  flex: 1;
+  color: white;
+}
+
+.stationLineContainerRight {
+  justify-content: flex-end;
+}
+
+.stationLineContainer > div {
+  flex: 0 1;
+}
+
+.stationLineName {
+  padding: 0 35px;
+}
+
+.stationLineBarTopName {
+  color: white;
+  font-size: 50px;
+  height: 70px;
+}
+
+.stationLineBarBottomNameContainer {
+  position: relative;
+  top: 10px;
+  line-height: 50px;
+}
+
+.stationLineBarBottomName {
+  font-size: 50px;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.areaNotationsContainer {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  text-align: right;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+.areaNotation {
+  display: inline-block;
+  border: solid 3px #0473bd;
+  padding: 0 4px;
+  margin: 0 10px;
+}
+
+.areaNotationFilled {
+  display: inline-block;
+  border: solid 3px #0473bd;
+  background-color: #0473bd;
+  color: white;
+  padding: 0 4px;
+  margin: 0 10px;
+}

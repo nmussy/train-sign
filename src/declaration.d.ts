@@ -32,7 +32,7 @@ interface Numbering {
 }
 
 interface SignStation {
-  name: SimpleBilangualName;
+  name: BilangualName;
   color?: string;
   heading?: boolean;
   trains?: Numbering[];
@@ -45,7 +45,8 @@ interface AreaNotation {
 }
 
 interface SignData {
-  name: QuadrilingualName;
+  company: COMPANY;
+  name: BilangualName | QuadrilingualName;
   color?: string;
   code?: string;
   numbering?: Numbering;
@@ -57,11 +58,12 @@ interface SignData {
 interface Station {
   code?: string;
   numbering: string;
-  name: QuadrilingualName;
+  name: BilangualName | QuadrilingualName;
   melodyUrl?: string;
   areaNotations?: AreaNotation[];
 }
 interface Line {
+  company: COMPANY;
   name: BilangualName;
   stations: Station[];
   color?: string;
@@ -77,4 +79,5 @@ interface SerializedState {
   direction?: DIRECTION;
   autoplayMelodies?: boolean;
   boxShadow?: boolean;
+  darkMode?: boolean;
 }

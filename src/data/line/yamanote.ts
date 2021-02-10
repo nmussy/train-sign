@@ -1,6 +1,8 @@
 import baseroute from '../../baseroute';
+import {COMPANY} from '../../util/enums';
 
 export const YamanoteLine: Line = {
+  company: COMPANY.JR_EAST,
   name: {
     english: 'Yamanote Line',
     kanji: '山手線',

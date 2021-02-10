@@ -18,6 +18,7 @@ export const DEFAULT_STATE: Required<SerializedState> = {
   direction: DIRECTION.LEFT_TO_RIGHT,
   autoplayMelodies: false,
   boxShadow: false,
+  darkMode: false,
 };
 
 const isDifferentFromDefaultValue = (
@@ -53,6 +54,8 @@ export const serialize = (
     .replace(/=/g, '');
 };
 
+const parseBooleanString = (str: string): boolean => str === 'true';
+
 export const deserialize = (
   serializedState: string,
 ): Required<SerializedState> => {
@@ -63,15 +66,9 @@ export const deserialize = (
     direction,
     autoplayMelodies,
     boxShadow,
+    darkMode,
   ] = atob(serializedState.replace(/-/g, '+').replace(/_/g, '/')).split(
     SERIALIZATION_SEPARATOR,
-  );
-
-  console.log(
-    disabledStationIndexes
-      .split(',')
-      .filter((index) => !!index)
-      .map(Number),
   );
 
   return {
@@ -82,8 +79,9 @@ export const deserialize = (
       .filter((index) => !!index)
       .map(Number),
     direction: direction ? Number(direction) : DEFAULT_STATE.direction,
-    autoplayMelodies: autoplayMelodies === 'true',
-    boxShadow: boxShadow === 'true',
+    autoplayMelodies: parseBooleanString(autoplayMelodies),
+    boxShadow: parseBooleanString(boxShadow),
+    darkMode: parseBooleanString(darkMode),
   };
 };
 
