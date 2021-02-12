@@ -1,3 +1,15 @@
+# [v0.4.0](https://github.com/nmussy/train-sign/releases/tag/v0.4.0)
+
+## Features
+
+- New lines:
+  - Tōkaidō Main Line (JR West)
+  - Tōkaidō Main Line (JR West) pre-2008
+
+## Bug fixes
+
+- Restore Chuo rapid translations
+
 # [v0.3.1](https://github.com/nmussy/train-sign/releases/tag/v0.3.1)
 
 ## Bug fixes
@@ -68,6 +80,7 @@
 
 ## Chores
 
+- Custom favicon
 - Versionning automation
 - Minor refactors, component splitting
 - Testing

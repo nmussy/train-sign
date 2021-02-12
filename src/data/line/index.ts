@@ -1,5 +1,7 @@
 import {ChuoLineRapide as ChuoLineRapid} from './chuo-rapid';
 import {OsakaLoopLine} from './osaka-loop';
+import {TokaidoWestLine} from './tokaido-west';
+import {TokaidoWestLinePre2008} from './tokaido-west-pre-2008';
 import {YamanoteLine} from './yamanote';
 import {YamanoteLinePre2020} from './yamanote-pre-2020';
 
@@ -12,4 +14,6 @@ export const Lines = [
   YamanoteLinePre2020,
   ChuoLineRapid,
   OsakaLoopLine,
+  TokaidoWestLine,
+  TokaidoWestLinePre2008,
 ];

@@ -17,8 +17,6 @@ export const OsakaLoopLine: Line = {
         english: 'Ōsaka',
         kanji: '大阪',
         hiragana: 'おおさか',
-        hangul: '오사카',
-        jiantizi: '大阪',
       },
     },
     {
@@ -27,8 +25,6 @@ export const OsakaLoopLine: Line = {
         english: 'Fukushima',
         kanji: '福島',
         hiragana: 'ふくしま',
-        hangul: '후쿠시마',
-        jiantizi: '福岛',
       },
     },
     {
@@ -37,8 +33,6 @@ export const OsakaLoopLine: Line = {
         english: 'Noda',
         kanji: '野田',
         hiragana: 'のだ',
-        hangul: '노다',
-        jiantizi: '野田',
       },
     },
     {
@@ -47,8 +41,6 @@ export const OsakaLoopLine: Line = {
         english: 'Nishikujō',
         kanji: '西九条',
         hiragana: 'にしくじょう',
-        hangul: '니시 쿠조',
-        jiantizi: '西九条',
       },
     },
     {
@@ -57,8 +49,6 @@ export const OsakaLoopLine: Line = {
         english: 'Bentenchō',
         kanji: '弁天町',
         hiragana: 'べんてんちょう',
-        hangul: '벤 텐초',
-        jiantizi: '本滕乔',
       },
     },
     {
@@ -67,8 +57,6 @@ export const OsakaLoopLine: Line = {
         english: 'Taishō',
         kanji: '大正',
         hiragana: 'たいしょう',
-        hangul: '다이쇼',
-        jiantizi: '大正',
       },
     },
     {
@@ -77,8 +65,6 @@ export const OsakaLoopLine: Line = {
         english: 'Ashiharabashi',
         kanji: '蘆原橋',
         hiragana: 'あしはらきょう',
-        hangul: '노원 교',
-        jiantizi: '芦原桥',
       },
     },
     {
@@ -87,8 +73,6 @@ export const OsakaLoopLine: Line = {
         english: 'Imamiya',
         kanji: '今宮',
         hiragana: 'いまみや',
-        hangul: '이마 미야',
-        jiantizi: '今宫',
       },
     },
     {
@@ -97,8 +81,6 @@ export const OsakaLoopLine: Line = {
         english: 'Shin-Imamiya',
         kanji: '新今宮',
         hiragana: 'しんいまみや',
-        hangul: '신이 마미야',
-        jiantizi: '新今宫',
       },
     },
     {
@@ -107,8 +89,6 @@ export const OsakaLoopLine: Line = {
         english: 'Tennōji',
         kanji: '天王寺',
         hiragana: 'てんのうじ',
-        hangul: '텐 노지',
-        jiantizi: '天王寺',
       },
     },
     {
@@ -117,8 +97,6 @@ export const OsakaLoopLine: Line = {
         english: 'Teradachō',
         kanji: '寺田町',
         hiragana: 'てらだちょう',
-        hangul: '寺田町',
-        jiantizi: '寺田町',
       },
     },
     {
@@ -127,8 +105,6 @@ export const OsakaLoopLine: Line = {
         english: 'Momodani',
         kanji: '桃谷',
         hiragana: 'ももだに',
-        hangul: '桃谷',
-        jiantizi: '森谷',
       },
     },
     {
@@ -137,8 +113,6 @@ export const OsakaLoopLine: Line = {
         english: 'Tsuruhashi',
         kanji: '鶴橋',
         hiragana: 'つるはし',
-        hangul: '츠루하시',
-        jiantizi: '鹤桥',
       },
     },
     {
@@ -147,8 +121,6 @@ export const OsakaLoopLine: Line = {
         english: 'Tamatsukuri',
         kanji: '玉造',
         hiragana: 'たまつくり',
-        hangul: '타 마츠 쿠리',
-        jiantizi: '玉栗',
       },
     },
     {
@@ -157,8 +129,6 @@ export const OsakaLoopLine: Line = {
         english: 'Morinomiya',
         kanji: '森ノ宮',
         hiragana: 'もりのみや',
-        hangul: '모리 노미야',
-        jiantizi: '森之宫',
       },
     },
     {
@@ -167,8 +137,6 @@ export const OsakaLoopLine: Line = {
         english: 'Osakajō-kōen',
         kanji: '大阪城公園',
         hiragana: 'おおさかじょうこうえん',
-        hangul: '오사카 성 공원',
-        jiantizi: '大阪城公园',
       },
     },
     {
@@ -177,8 +145,6 @@ export const OsakaLoopLine: Line = {
         english: 'Kyōbashi',
         kanji: '京橋',
         hiragana: 'きょうばし',
-        hangul: '교 바시',
-        jiantizi: '京桥',
       },
     },
     {
@@ -187,8 +153,6 @@ export const OsakaLoopLine: Line = {
         english: 'Sakuranomiya',
         kanji: '桜ノ宮',
         hiragana: 'さくらのみや',
-        hangul: '사쿠라 노미야',
-        jiantizi: '樱宫',
       },
     },
     {
@@ -197,8 +161,6 @@ export const OsakaLoopLine: Line = {
         english: 'Temma',
         kanji: '天満',
         hiragana: 'てんま',
-        hangul: '텐마',
-        jiantizi: '天马',
       },
     },
   ],

@@ -10,7 +10,7 @@ const Footer: FunctionalComponent = () => {
           target="_blank"
           href="//github.com/nmussy/train-sign/releases"
         >
-          v0.3.1
+          v0.4.0
         </a>{' '}
         |{' '}
         <a
