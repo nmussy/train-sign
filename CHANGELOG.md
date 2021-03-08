@@ -1,3 +1,14 @@
+# [v0.5.0](https://github.com/nmussy/train-sign/releases/tag/v0.5.0)
+
+## Features
+
+- New lines:
+  - Keihin–Tōhoku Line
+
+## Bug fixes
+
+- Clicking on the left side of the train properly goes to the previous station
+
 # [v0.4.0](https://github.com/nmussy/train-sign/releases/tag/v0.4.0)
 
 ## Features

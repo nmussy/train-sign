@@ -237,6 +237,11 @@ const Home: FunctionalComponent = () => {
     boxShadow,
   };
 
+  const handleStationClick = ({x}: MouseEvent): void => {
+    const station = x > signWidth / 2 ? rightStation : leftStation;
+    station && setStationHelper(station);
+  };
+
   if (displayMode === 'sign') {
     return (
       <div
@@ -245,10 +250,7 @@ const Home: FunctionalComponent = () => {
           height: signHeight,
           width: signWidth,
         }}
-        onClick={({offsetX}): void => {
-          const station = offsetX > signHeight / 2 ? leftStation : leftStation;
-          station && setStationHelper(station);
-        }}
+        onClick={handleStationClick}
         {...bindWheel()}
       >
         <Sign
@@ -304,11 +306,7 @@ const Home: FunctionalComponent = () => {
             height: signHeight,
             width: signWidth,
           }}
-          onClick={({offsetX}): void => {
-            const station =
-              offsetX > signHeight / 2 ? leftStation : leftStation;
-            station && setStationHelper(station);
-          }}
+          onClick={handleStationClick}
           {...bindWheel()}
         >
           <Sign
