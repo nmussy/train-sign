@@ -1,3 +1,9 @@
+# [v0.5.1](https://github.com/nmussy/train-sign/releases/tag/v0.5.1)
+
+## Bug fixes
+
+- Add missing Tokyo metro area notations
+
 # [v0.5.0](https://github.com/nmussy/train-sign/releases/tag/v0.5.0)
 
 ## Features

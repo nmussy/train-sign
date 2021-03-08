@@ -161,6 +161,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '신바시',
         jiantizi: '新桥',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/gotadelvient.mp3',
     },
     {
@@ -172,6 +173,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '유라쿠쵸',
         jiantizi: '有乐町',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/sh21.mp3',
     },
     {
@@ -184,6 +186,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '도쿄',
         jiantizi: '东京',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/sh3.mp3',
     },
     {
@@ -196,6 +199,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '칸다',
         jiantizi: '神田',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/seseragi.mp3',
     },
     {
@@ -208,6 +212,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '아키하바라',
         jiantizi: '秋叶原',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/ogawav1.mp3',
     },
     {
@@ -219,6 +224,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '오카치마치',
         jiantizi: '御徒町',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harutrem.mp3',
     },
     {
@@ -231,6 +237,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '우에노',
         jiantizi: '上野',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/bellb.mp3',
     },
     {
@@ -242,6 +249,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '우구이스다니',
         jiantizi: '鶯谷',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harutrem.mp3',
     },
     {
@@ -254,6 +262,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '닛포리',
         jiantizi: '日暮里',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harutrem.mp3',
     },
     {
@@ -265,6 +274,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '니시닛뽀리',
         jiantizi: '西日暮里',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harutrem.mp3',
     },
     {
@@ -276,6 +286,7 @@ export const KeihinTohokuLine: Line = {
         hangul: '타바타',
         jiantizi: '田端',
       },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
       melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/harutrem.mp3',
     },
     {
