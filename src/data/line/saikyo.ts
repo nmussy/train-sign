@@ -1,0 +1,226 @@
+import {COMPANY} from '../../util/enums';
+
+export const SaikyoLine: Line = {
+  company: COMPANY.JR_EAST,
+  name: {
+    english: 'Saikyō Line',
+    kanji: '埼京線',
+    hiragana: 'さいきょうせん',
+  },
+  color: '#00AC9A',
+  loop: false,
+  stations: [
+    {
+      code: 'OSK',
+      numbering: 'JA08',
+      name: {
+        english: 'Ōsaki',
+        kanji: '大崎',
+        hiragana: 'おおさき',
+        hangul: '오사키',
+        jiantizi: '大崎',
+      },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/uminoeki.mp3',
+    },
+    {
+      code: 'BSJ',
+      numbering: 'JA09',
+      name: {
+        english: 'Ebisu',
+        kanji: '恵比寿',
+        hiragana: 'えびす',
+        hangul: '에비스',
+        jiantizi: '惠比寿',
+      },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/thirdman.mp3',
+    },
+    {
+      code: 'SBY',
+      numbering: 'JA10',
+      name: {
+        english: 'Shibuya',
+        kanji: '渋谷',
+        hiragana: 'しぶや',
+        hangul: '시부야',
+        jiantizi: '涩谷',
+      },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/hananohorokobi.mp3',
+    },
+    {
+      code: 'JKJ',
+      numbering: 'JA11',
+      name: {
+        english: 'Shinjuku',
+        kanji: '新宿',
+        hiragana: 'しんじゅく',
+        hangul: '신주쿠',
+        jiantizi: '新宿',
+      },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/aratana.mp3',
+    },
+    {
+      code: 'IKB',
+      numbering: 'JA12',
+      name: {
+        english: 'Ikebukuro',
+        kanji: '池袋',
+        hiragana: 'いけぶくろ',
+        hangul: '이케부쿠로',
+        jiantizi: '池袋',
+      },
+      areaNotations: [{letter: '山'}, {letter: '区', fill: true}],
+      melodyUrl: '//morgansleeper.github.io/Yamanotes/audio/melody.mp3',
+    },
+    {
+      numbering: 'JA13',
+      name: {
+        english: 'Itabashi',
+        kanji: '板橋',
+        hiragana: 'いたばし',
+        hangul: '이타바시',
+        jiantizi: '木板',
+      },
+      areaNotations: [{letter: '区', fill: true}],
+    },
+    {
+      numbering: 'JA14',
+      name: {
+        english: 'Jūjō',
+        kanji: '十条',
+        hiragana: 'じゅうじょう',
+        hangul: '조',
+        jiantizi: '第十',
+      },
+      areaNotations: [{letter: '区', fill: true}],
+    },
+    {
+      code: 'ABN',
+      numbering: 'JA15',
+      name: {
+        english: 'Akabane',
+        kanji: '赤羽',
+        hiragana: 'あかわ',
+        hangul: '아카바네',
+        jiantizi: '刀刃',
+      },
+      areaNotations: [{letter: '区', fill: true}],
+    },
+    {
+      numbering: 'JA16',
+      name: {
+        english: 'Kita-Akabane',
+        kanji: '北赤羽',
+        hiragana: 'きたあかはね',
+        hangul: '북쪽아카바네',
+        jiantizi: '北方红行员',
+      },
+      areaNotations: [{letter: '区', fill: true}],
+    },
+    {
+      numbering: 'JA17',
+      name: {
+        english: 'Ukima-Funado',
+        kanji: '浮間舟渡',
+        hiragana: 'うきまふなと',
+        hangul: '우키마舟渡',
+        jiantizi: '平子淳',
+      },
+      areaNotations: [{letter: '区', fill: true}],
+    },
+    {
+      numbering: 'JA18',
+      name: {
+        english: 'Toda-Kōen',
+        kanji: '戸田公園',
+        hiragana: 'とだこうえん',
+        hangul: '戸田公園',
+        jiantizi: '户田公园',
+      },
+    },
+    {
+      numbering: 'JA19',
+      name: {
+        english: 'Toda',
+        kanji: '戸田',
+        hiragana: 'とだ',
+        hangul: '토다',
+        jiantizi: '托阿',
+      },
+    },
+    {
+      numbering: 'JA20',
+      name: {
+        english: 'Kita-Toda',
+        kanji: '北戸田',
+        hiragana: 'きたとだ',
+        hangul: '북쪽도다',
+        jiantizi: '北部',
+      },
+    },
+    {
+      numbering: 'JA21',
+      name: {
+        english: 'Musashi-Urawa',
+        kanji: '武蔵浦和',
+        hiragana: 'むさしうらわ',
+        hangul: '무사시우라와',
+        jiantizi: '弘武藏',
+      },
+    },
+    {
+      numbering: 'JA22',
+      name: {
+        english: 'Naka-Urawa',
+        kanji: '中浦和',
+        hiragana: 'ちゅううらわ',
+        hangul: '중우라와',
+        jiantizi: '中岛',
+      },
+    },
+    {
+      numbering: 'JA23',
+      name: {
+        english: 'Minami-Yono',
+        kanji: '南与野',
+        hiragana: 'みなみよの',
+        hangul: '南与野',
+        jiantizi: '南部',
+      },
+    },
+    {
+      numbering: 'JA24',
+      name: {
+        english: 'Yonohommachi',
+        kanji: '与野本町',
+        hiragana: 'よのほんまち',
+        hangul: '요노혼마치',
+        jiantizi: '预约町',
+      },
+    },
+    {
+      numbering: 'JA25',
+      name: {
+        english: 'Kita-Yono',
+        kanji: '北与野',
+        hiragana: 'きたよの',
+        hangul: '北与野',
+        jiantizi: '北格隆诺',
+      },
+    },
+    {
+      code: 'OMY',
+      numbering: 'JA26',
+      name: {
+        english: 'Ōmiya',
+        kanji: '大宮',
+        hiragana: 'おおみや',
+        hangul: '오미야',
+        jiantizi: '大宫',
+      },
+    },
+  ],
+};

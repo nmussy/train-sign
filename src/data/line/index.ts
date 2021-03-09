@@ -1,6 +1,7 @@
 import {ChuoLineRapide as ChuoLineRapid} from './chuo-rapid';
 import {KeihinTohokuLine} from './keihin-tohoku';
 import {OsakaLoopLine} from './osaka-loop';
+import {SaikyoLine} from './saikyo';
 import {TokaidoWestLine} from './tokaido-west';
 import {TokaidoWestLinePre2008} from './tokaido-west-pre-2008';
 import {YamanoteLine} from './yamanote';
@@ -18,4 +19,5 @@ export const Lines = [
   TokaidoWestLine,
   TokaidoWestLinePre2008,
   KeihinTohokuLine,
+  SaikyoLine,
 ];

@@ -1,3 +1,10 @@
+# [v0.6.0](https://github.com/nmussy/train-sign/releases/tag/v0.6.0)
+
+## Features
+
+- New lines:
+  - Saikyō Line
+
 # [v0.5.1](https://github.com/nmussy/train-sign/releases/tag/v0.5.1)
 
 ## Bug fixes
